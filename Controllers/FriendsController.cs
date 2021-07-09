@@ -17,8 +17,8 @@ namespace PoC_RestFull.Controllers
         {
              var friends = new List<FriendModel>();
 
-            friends.Add(new FriendModel { Id = 1, Nombre = "Jhon" });
-            friends.Add(new FriendModel { Id = 2, Nombre = "Mary" });
+            friends.Add(new FriendModel { Id = 1, Nombre = "Jhon Smitt" });
+            friends.Add(new FriendModel { Id = 2, Nombre = "Mary Thompson" });
 
             return friends;
         }
